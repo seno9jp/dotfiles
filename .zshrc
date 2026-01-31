@@ -56,3 +56,5 @@ precmd () { vcs_info }
 PROMPT='
 [%B%F{red}%n:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
+
+export PATH="/snap/bin:$PATH"
