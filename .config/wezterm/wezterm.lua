@@ -9,4 +9,7 @@ end
 -- WSL Ubuntuをデフォルトドメインとして設定
 config.default_domain = 'WSL:Ubuntu-24.04'
 
+config.font_size = 10.0
+
+
 return config
