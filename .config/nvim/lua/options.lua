@@ -26,3 +26,10 @@ opt.cursorline = true
 
 opt.updatetime = 300
 opt.timeoutlen = 400
+
+vim.opt.undofile = true
+vim.opt.confirm = true
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+vim.opt.wrap = false
+vim.opt.virtualedit = "block"
