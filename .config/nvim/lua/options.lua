@@ -11,7 +11,12 @@ opt.expandtab = true
 opt.smartindent = true
 
 -- cursor
-opt.guicursor = "n-i:ver25"
+opt.guicursor = table.concat({
+  "n-v-c:block",
+  "i-ci-ve:ver25-blinkwait700-blinkon400-blinkoff250",
+  "r-cr:hor20",
+  "o:hor50",
+}, ",")
 
 -- 検索設定
 opt.ignorecase = true
