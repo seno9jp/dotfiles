@@ -8,6 +8,7 @@ opt.relativenumber = false
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
+opt.smartindent = true
 
 -- cursor
 opt.guicursor = "n-i:ver25"
@@ -15,3 +16,13 @@ opt.guicursor = "n-i:ver25"
 -- 検索設定
 opt.ignorecase = true
 opt.smartcase = true
+
+opt.splitright = true
+opt.splitbelow = true
+
+opt.termguicolors = true
+opt.signcolumn = "yes"
+opt.cursorline = true
+
+opt.updatetime = 300
+opt.timeoutlen = 400

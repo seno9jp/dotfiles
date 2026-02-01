@@ -10,6 +10,7 @@ end
 config.default_domain = 'WSL:Ubuntu-24.04'
 
 config.font_size = 10.0
+config.color_scheme = 'Kasugano (terminal.sexy)'
 
 
 return config
