@@ -5,7 +5,7 @@
 1. Download
     ```shell
     git clone https://github.com/seno9jp/dotfiles.git
-    cd dotfiles
+    cd dotfiles/scripts
     ```
 
 1. Install
